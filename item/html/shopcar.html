@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #list {
+            width: 800px;
+            text-align: center;
+            border-spacing: 0;
+            table-layout: fixed;
+            margin: 30px auto;
+        }
+
+        #list>tbody>tr {
+            border: 1px solid #ccc;
+            background: #f3b8b8;
+            height: 87px;
+        }
+
+        #list>tbody>tr>td {
+            margin-left: 30px;
+            width: 20%;
+        }
+
+        #list>tbody>tr>td>button {
+            height: 22px;
+            width: 30px;
+            font-size: 18px;
+            outline: none;
+        }
+
+        #list>tbody>tr>td>button,
+        #list>tbody>tr>td>input {
+            border: 0;
+            float: left;
+        }
+
+        .reduce {
+            margin-left: 30px;
+        }
+
+        .num {
+            text-align: center;
+        }
+
+        #list>tbody>tr>td>input {
+            width: 40px;
+            height: 20px;
+        }
+
+        .smallPic {
+            width: 35px;
+            height: 35px;
+            margin-left: -60px
+        }
+        div{
+            width: 800px;
+            height: 37px;
+            background: gray;
+            margin-left: 312px;
+            margin-top: -30px;
+        }
+        label{
+            display: block;
+            width: 87px;
+            height: 37px;
+            font-size: 14px;
+            line-height: 37px;
+            float: left;
+        }
+        div p{
+            float: left;
+            margin-top: 0px;
+            margin-left: 600px;
+            line-height: 37px;
+        }
+        div .num1{
+            float: right;
+            width: 40px;
+            height: 10px;
+            margin-right: 10px;
+            margin-top: 11px;
+        }
+    </style>
+</head>
+<body>
+     <table id="list">
+        <tr>
+            <td>图片</td>
+            <td>单价</td>
+            <td>数量</td>
+            <td>小计</td>
+            <td>操作</td>
+        </tr>
+        <!-- <tr>
+            <td><input type="checkbox" class="btn"><img src="img/1.jpg" class="smallPic"></td>
+            <td>￥255</td>
+            <td>
+                <button class="reduce">-</button>
+                <input type="text" value="1" class="num">
+                <button class="add">+</button>
+            </td>
+            <td>￥255</td>
+            <td class="del">删除</td>
+        </tr> -->
+    </table>
+    <div>
+        <label>
+            全选 <input type="checkbox" id="all">
+        </label>
+        <p>总金额</p><input type="text" class="num1">
+    </div>
+</body>
+</html>
+<script src="../js/ajax2.0.js"></script>
+<script src="../js/shopcar.js"></script>
+<script src="../js/jquery-1.11.3.min.js"></script>

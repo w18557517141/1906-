@@ -1,0 +1,108 @@
+@charset "utf-8";
+#list-one .make-one{
+    width: 278px;
+    height:  475px;
+    background: pink;
+    float: right;
+    margin-top: -475px;
+    overflow: hidden;
+    background: #fff;
+}
+#list-one .make-one .make-title{
+    width: 268px;
+    height: 24px;
+    border-bottom: 1px solid #e8e8e8;
+    font-size: 18px;
+    padding-top:21px; 
+    padding-left:10px; 
+}
+#list-one .make-one .make-title span{
+    width: 76px;
+    height: 45px;
+    color:#ed1957;
+    border-bottom: 1px solid #ed1957;
+    margin-right: 10px;
+}
+#list-one .make-one .moveimg{
+    width: 880px;
+    height: 366px;
+}
+#list-one .make-one .moveimg .moveimg-left{
+    width: 268px;
+    height: 388px;
+    margin-left:5px;
+    float: left;
+}
+#list-one .make-one .moveimg .moveimg-left dl{
+    width: 134px;
+    height: 105px;
+    float: left;
+}
+#list-one .make-one .moveimg .moveimg-left dl:first-child{
+    margin-top: 20px;
+}
+#list-one .make-one .moveimg .moveimg-left dl:nth-child(2){
+    margin-top: 20px;
+}
+#list-one .make-one .moveimg .moveimg-left dt{
+    display: block;
+    margin-left: 20px;
+    width: 90px;
+    height: 45px;
+    margin-top:-20px;
+}
+#list-one .make-one .moveimg .moveimg-left dd{
+    display: block;
+    width: 126px;
+    text-align: center;
+    background: #ededed;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #868686;
+}
+#list-one .make-one .yuan{
+    height: 40px;
+    margin-top: 30px;
+    position: relative;
+}
+#list-one .make-one .yuan span{
+    position: absolute;
+    float: left;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #555454;
+    cursor: pointer;
+}
+#list-one .make-one .yuan span:first-child{
+    top: 10px;left: 120px;
+}
+#list-one .make-one .yuan span:nth-child(2){
+    top: 10px;left: 140px;
+}
+#list-one .make-one .yuan span:last-child{
+    top: 10px;left: 160px;
+}
+#list-one .make-one .yuan .yuan1{
+    background: #ef4f51;
+}
+#list-one .make-one .yuan .yuan2{
+    background: #ef4f51;
+    margin-left: -24px;
+}
+#list-one .make-one .yuan-3 span:first-child{
+    margin-left: -10px;
+}
+#list-one .make-one .yuan .yuan3{
+    background: #ef4f51;
+}
+#list-one .make-one .yuan .yuan4{
+    background: #ef4f51;
+}
+#list-one .make-one .yuan-5 span:first-child{
+    margin-left: -10px;
+}
+#list-one .make-one .yuan .yuan5{
+    background: #ef4f51;
+}

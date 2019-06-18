@@ -1,0 +1,247 @@
+@charset "utf-8";
+.box{
+    width: 995px;
+    height: 600px;
+    /* background: pink; */
+    margin: 0 auto;
+}
+.box .header{
+    width: 995px;
+    height: 50px;
+    border-bottom:1px solid gray; 
+}
+.box .header .header-body{
+    width: 728px;
+    height: 50px;
+    margin: 0 auto;
+}
+.box .header .header-body li{
+    float: left;
+    width: 182px;
+    height: 50px;
+    line-height: 50px;
+    color: gray;
+    font-weight: bold;
+    font-size: 17px;
+}
+.box .header .header-body li b{
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: gray;
+    border-radius: 50%;
+    line-height: 50px;
+    float: left;
+    color: #fff;
+    line-height: 25px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 12.5px;
+    margin-left: 50px;
+    margin-right: 4px;
+}
+.box .header .header-body li:first-child{
+    color: #000;
+    border-bottom: 2px solid red;
+}
+.box .header .header-body li .color{
+    background: red;
+}
+.box .footer{
+    width: 728px;
+    height: 550px;
+    margin: 0 auto;
+    position: relative;
+}
+.model{
+    float: left;
+    width: 728px;
+    height: 465px;
+    background: #fff;
+    margin-top: 65px;
+    border: 2px solid #dedede;
+    border-top: 2px solid #ff0036;
+    position: absolute;
+    top:100px ;left:280px;
+    z-index: 10;
+    margin: 0 auto;
+}
+.model h1{
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: gray;
+    margin-top: 20px;
+}
+.model h1 a{
+    display: block;
+    float: right;
+    font-size: 30px;
+    margin-right: 10px;
+    color: red;
+    margin-top: -20px;
+    text-decoration: none
+}
+.model .modelbody{
+    width: 698px;
+    height: 465px;
+    margin: 0 auto;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.model .modelbody p span{
+    text-decoration: underline;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+}
+.model .modelbody p b{
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+}
+.model .modelbody ol li{
+    font-size: 12px;
+    font-weight:bold;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+.model .modelbody h2{
+    font-size: 12px;
+    margin-top:10px;
+}
+.model .modelbody h3{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.model .modelbody h3 b{
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+}
+.model .modelbody div{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.model .modelbody ul li{
+    margin-top: 10px;
+}
+.model .modelbody ul li a{
+    color: #ff0036;
+    font-weight: bold;
+}
+.model .modelbody ul li a:hover{
+    text-decoration: underline;
+}
+.model .modelbody button{
+    width: 184px;
+    height: 40px;
+    background: #ff0036;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 260px;
+    margin-top: 10px;
+}
+.box .footer>h1{
+    margin-top: 80px;
+    float: left;
+    margin-left: 200px;
+}
+.box .footer select{
+    height: 30px;
+    float: left;
+    margin-top: 75px;
+    margin-left: 10px;
+}
+.box .footer input{
+    margin-top: 75px;
+    border: 1px solid gray;
+    height: 30px;
+    border-left: none;
+}
+.box .footer h2{
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.box .footer .kuang{
+    float: right;
+    width: 300px;
+    height: 34px;
+    background: #dad8d8;
+    margin-top: -30px;
+    margin-right: 170px;
+    line-height: 34px;
+    text-align: center;
+    position: relative;
+}
+.box .footer .kuang .kuang1{
+    width: 40px;
+    height: 34px;
+    cursor: pointer;
+    border: 1px solid gray;
+    background: #fff;
+    position: absolute;
+    top:0px;left: 0;
+}
+.box .footer .kuang i{
+    width: 0px;
+    height: 34px;
+    background: rgb(5, 243, 17);
+    position: absolute;
+    left: 0;
+    color: #fff;
+    text-align: center;
+    line-height: 34px;
+    font-size: 14px;
+    font-weight: 900;
+    text-align: center;
+}
+.box .footer .btn1{
+    margin-left: 300px;
+    margin-top: 20px;
+    width: 184px;
+    height: 38px;
+    border: none;
+    background: #dad8d8;
+    font-size: 14px;
+    color: #fff;
+}
+.footer1 .phone{
+    font-weight: bold;
+    margin-left: 220px;
+    margin-top: 80px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer1 .uname{
+    margin-left: 220px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.footer1 .uname1{
+    margin-top: -40px;
+    margin-left: 260px;
+    font-size: 16px;
+}
+.footer1 .uname1 input{
+    margin-left: 10px;
+    border: 1px solid gray;
+    width: 200px;
+    height: 40px;
+    font-size: 14px;
+}
+.footer1 button{
+    margin-left: 240px;
+    height: 30px;
+    width: 200px;
+    margin-top: 20px;
+    background: #ff0036;
+    border: none;
+    border-radius: 10px;
+    outline: none
+}

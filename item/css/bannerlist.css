@@ -1,0 +1,93 @@
+.banner-bottom .bottom-left .left-list .float{
+    width: 228px;
+    height: 83px;
+    margin-bottom: 1px;
+}
+.banner-bottom .bottom-left .left-list ul{
+    width: 190px;
+    height: 80px;
+    margin-left: 20px;
+    border-bottom: 1px dashed #989595;
+}
+.banner-bottom .bottom-left .left-list .for5 ul{
+    border: none;
+}
+.banner-bottom .bottom-left .left-list ul li{
+    color: #fff
+}
+.banner-bottom .bottom-left .left-list ul li em{
+    display: block;
+    color: #fff;
+    padding-top: 15px;
+    font-size: 16px;
+    font-weight: 900;
+}
+.banner-bottom .bottom-left .left-list ul li:last-child{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.banner-bottom .bottom-left .left-list ul li a{
+    margin-right: 5px;
+    color: #fff
+}
+.banner-bottom{
+    position: relative;
+}
+.banner-bottom .listhidden{
+    width: 720px;
+    min-height: 580px;
+    background: #fff;
+    position: absolute;
+    left:230px;top:0px;  
+    z-index: 4;
+    display: none;
+    box-shadow: 0px 2px 10px 0 #807d7d;
+}
+
+
+.banner-bottom .listhidden .list-top{
+    width: 655px;
+    height: 135px;
+    margin-top: 38px;
+    margin-left: 30px;
+}
+.banner-bottom .listhidden .list-top .top-left{
+    width: 314px;
+    float: left;
+    min-height: 135px;
+}
+.banner-bottom .listhidden .list-top .top-left .left-zi{
+    font-size: 14px;
+    font-weight: 900;
+    margin-left: 5px;
+}
+.banner-bottom .listhidden .list-top .top-left hr{
+    border:0.5px solid #000;
+    margin-bottom: 10px;
+}
+.banner-bottom .listhidden .list-top .top-left .left-zi1{
+    font-size: 12px;
+    color: gray;
+    margin-top: 8px;
+    margin-bottom: 3px;
+}
+.banner-bottom .listhidden .list-top1{
+    margin-top: 50px;
+}
+.banner-bottom .listhidden .list-top .top-left a{
+    margin: 0 5px;
+    color: #4d4b4b
+}
+.banner-bottom .listhidden .list-top .top-left .color{
+    color: red
+}
+.banner-bottom .listhidden .list-top .top-right{
+    width: 314px;
+    float: right;
+    height: 135px;
+}
+.banner-bottom .listhidden1 .list-top{
+    margin-bottom: -60px;
+}
+
+
